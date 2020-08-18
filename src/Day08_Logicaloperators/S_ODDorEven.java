@@ -1,0 +1,29 @@
+package Day08_Logicaloperators;
+
+public class S_ODDorEven {
+
+    public static void main(String[] args) {
+
+        int number = 100;
+
+        boolean even = number % 2 ==0;
+        boolean odd = !even;
+
+        if (even){
+
+            System.out.println(number+ " is even number");
+
+        if (odd){
+
+            System.out.println(number + "is odd number");
+
+        }
+
+
+        }
+
+
+
+    }
+
+}
