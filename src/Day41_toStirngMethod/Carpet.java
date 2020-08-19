@@ -38,19 +38,21 @@ public class Carpet {
      }
 
 
-     public void getCarpetInfo(){
+     public void getCarpetInfo() {
          System.out.println("=============================");
-         System.out.println("with: "+width);
-         System.out.println("length: " +length);
-         System.out.println("Unit Price: "+unitPrice);
-         System.out.println("Persian carpet: "+isPersian);
-         System.out.println("Total Price "+calcCost());
+         System.out.println("with: " + width);
+         System.out.println("length: " + length);
+         System.out.println("Unit Price: " + unitPrice);
+         System.out.println("Persian carpet: " + isPersian);
+         System.out.println("Total Price " + calcCost());
 
          System.out.println("=============================");
-
-
-
-
      }
+ public String toString(){
+     return "Wihth:  "+width+", length: "+length+" persian: "+isPersian;
+         }
+
+
+
 
 }

@@ -14,27 +14,27 @@ public class CarpetObjects {
 
     public static void main(String[] args) {
 
-        Carpet [] carpet = {new Carpet(), new Carpet(), new Carpet(), new Carpet(), new Carpet()};
+        Carpet [] carpets = {new Carpet(), new Carpet(), new Carpet(), new Carpet(), new Carpet()};
 
-        carpet[0].customOrder(4.5, 3.5, 7.5, false);
-        carpet[1].customOrder(5.5, 3.5, 18.5, true);
-        carpet[2].customOrder(4.5, 5.5, 19.5, false);
-        carpet[3].customOrder(3.5, 4.5, 20.5, true);
-        carpet[4].customOrder(6.5, 5.5, 21.5, true);
+        carpets[0].customOrder(4.5, 3.5, 7.5, false);
+        carpets[1].customOrder(5.5, 3.5, 18.5, true);
+        carpets[2].customOrder(4.5, 5.5, 19.5, false);
+        carpets[3].customOrder(3.5, 4.5, 20.5, true);
+        carpets[4].customOrder(6.5, 5.5, 21.5, true);
 
 
 
-        for (Carpet each : carpet){
+        for (Carpet each : carpets){
             each.getCarpetInfo();
         }
         ArrayList<Carpet> persianCarpets = new ArrayList<>();
         ArrayList<Carpet> regularCarpet = new ArrayList<>();
 
-        for (int i = 0; i <= carpet.length; i++){
-            if (carpet[i].isPersian){
-                persianCarpets.add(carpet[i]);
+        for (int i = 0; i <= carpets.length; i++){
+            if (carpets[i].isPersian){
+                persianCarpets.add(carpets[i]);
             } else {
-                regularCarpet.add(carpet[i]);
+                regularCarpet.add(carpets[i]);
             }
 
         }
