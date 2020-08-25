@@ -18,9 +18,9 @@ public class Car {
 
      }
 
-    //public String toString(){
-       //  return year+ " "+brand+ " model"+ model+ " year "+year+ " price "+price+ " color"+color;
+    public String toString(){
+        return year+ " "+brand+ " model"+ model+ " year "+year+ " price "+price+ " color"+color;
 
-    // }
+    }
 
 }
