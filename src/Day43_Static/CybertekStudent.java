@@ -13,6 +13,17 @@ public class CybertekStudent {
 
     static String schoolname= "Cybertek School";
 
+    public static void getInfo(){ // ==> static metod
+       //  System.out.println("Name: "+studentName); kabul etmez
+    }
+
+    public void getinfo1 (){ //instance metod hem static hem istance veriable kabil etti.
+        System.out.println("Name: "+schoolname);
+        System.out.println("School Name: "+ schoolname);
+    }
+        public static void printSchoolName (){ // ==> static method sadece statici kabul eder ve etti.
+            System.out.println("School Name: "+ schoolname);
+        }
 
 
 }

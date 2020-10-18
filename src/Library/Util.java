@@ -425,4 +425,17 @@ public class Util {
     }
     // find and returns the min number from double array
 
+
+    public static void sleep (int seconds) {
+
+        try {
+            Thread.sleep(seconds * 10000);
+        } catch (InterruptedException e) {
+
+        }
+
+
+    }
+    // sleep method
+
 }

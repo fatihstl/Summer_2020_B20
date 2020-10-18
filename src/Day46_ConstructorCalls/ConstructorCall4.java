@@ -1,0 +1,15 @@
+package Day46_ConstructorCalls;
+
+public class ConstructorCall4 {
+    public ConstructorCall4(){
+
+    }
+    public ConstructorCall4(int a){
+     this(2.5); // contain constructoe with double
+    }
+    public ConstructorCall4(double a){
+     //
+        this();
+    }
+
+}
